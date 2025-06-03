@@ -21,25 +21,25 @@ M.get_colors = function(conf)
 
   return {
     visual = {
-      a = { fg = colors.color2, bg = colors.color3, gui = "bold" },
+      a = { fg = colors.color2, bg = colors.color3 },
       b = { fg = colors.color4, bg = colors.color5 },
     },
     replace = {
-      a = { fg = colors.color2, bg = colors.color8, gui = "bold" },
+      a = { fg = colors.color2, bg = colors.color8},
       b = { fg = colors.color4, bg = colors.color5 },
     },
     inactive = {
-      a = { fg = colors.color9, bg = colors.color10, gui = "bold" },
+      a = { fg = colors.color9, bg = colors.color10 },
       b = { fg = colors.color9, bg = colors.color10 },
       c = { fg = colors.color9, bg = colors.color10 },
     },
     normal = {
-      a = { fg = colors.color11, bg = colors.color12, gui = "bold" },
+      a = { fg = colors.color11, bg = colors.color12 },
       b = { fg = colors.color4, bg = colors.color5 },
       c = { fg = colors.color4, bg = colors.color10 },
     },
     insert = {
-      a = { fg = colors.color2, bg = colors.color15, gui = "bold" },
+      a = { fg = colors.color2, bg = colors.color15 },
       b = { fg = colors.color4, bg = colors.color5 },
     },
   }
